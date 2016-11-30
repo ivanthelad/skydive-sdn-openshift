@@ -12,5 +12,7 @@ oadm policy add-scc-to-user  privileged system:serviceaccount:$(oc project -q):d
 oc label nodes --all sky-dive-collector=true
 
 ## Deploy Objects 
-oc create -f 
+oc create -f https://raw.githubusercontent.com/ivanthelad/skydive-sdn-openshift/master/skydive-oscp.yaml
 
+
+Browse to the Route endpoint and the visualizer should be available 
