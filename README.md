@@ -1,5 +1,7 @@
 # skydive-sdn-openshift
 A mini tutorial to use Openstack Skydive project to visualize the Openshift SDN
+Simply based on kube template http://skydive-project.github.io/skydive/getting-started/kubernetes/
+
 
 
 ## Create Project 
