@@ -1,5 +1,5 @@
 # skydive-sdn-openshift
-A mini tutorial to visualize to use Openstack Skydive project to visualize the Openshift SDN
+A mini tutorial to use Openstack Skydive project to visualize the Openshift SDN
 
 
 ## Create Project 
