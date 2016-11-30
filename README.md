@@ -5,7 +5,7 @@ A mini tutorial to visualize to use Openstack Skydive project to visualize the O
 ## Create Project 
 oc new-project network
 
-## Give Rights to access sdn sockers (catch all, should fine tune)
+## Give Rights to access sdn sockets (catch all, should fine tune)
 oadm policy add-scc-to-user  privileged system:serviceaccount:$(oc project -q):default
 
 ## Daemon Set to deploy collector
