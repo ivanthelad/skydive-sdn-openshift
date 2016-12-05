@@ -192,7 +192,7 @@ items:
             path: /var/run/docker.sock
           name: docker
         - hostPath:
-            path: /var/run/netns
+            path:  /var/run/openvswitch/db.sock
           name: run
   status:
     currentNumberScheduled: 3
